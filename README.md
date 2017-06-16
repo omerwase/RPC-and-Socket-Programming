@@ -1,2 +1,2 @@
 # RPC-and-Socket-Programming
-Distributed computation using Remote Procedure Calls and UDP socket programming in C
+Distributed string construction and property verification using Remote Procedure Calls and UDP socket in C
