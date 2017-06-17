@@ -21,5 +21,5 @@ Once a character is recieved from the client, the server constructs S, checking 
    
 Upon completetion of S the entire string is sent to the verify server via UDP socket
 ### Verify Server
-Upon recieving S from the append server, the verify server sends M segments of S to the client upon recieving a request through RPC.  
+After recieving S from the append server, the verify server sends M segments of S to the client upon recieving a request through RPC.  
 If no more segments are left, the verify server returns "-" indicating end of the string to the client.  
