@@ -2,8 +2,9 @@
 Distributed string construction and property verification using Remote Procedure Calls and UDP socket in C
 
 Usage: 
-*
-* ./client (property #) N L M c0 c1 c2
+* ./server_verify
+* ./server_append (server_verify hostname)
+* ./client (property #) N L M c0 c1 c2 (server_append hostname) (server_verify hostname)
 
 ## Program function:
 The program creates a string S with M segments, each of length L (|S| = M x L) using 3 <= N <= 8 threads.  
